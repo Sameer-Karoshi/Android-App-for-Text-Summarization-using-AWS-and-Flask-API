@@ -22,10 +22,12 @@
 - Create android app using android studio.
 - Finaly, run the python script, flask app and android app.  
 
+#### **Note** - Code for Text Summarization and Flask API included in "Server" folder.
+
 
 ## **Demo Video**
 
-![Alt Text](https://github.com/Sameer-Karoshi/Android-App-for-Text-Summarization-using-AWS-and-Flask-API/blob/main/Text%20Summarization%20Demo.gif)
+![Alt Text](https://github.com/Sameer-Karoshi/Android-App-for-Text-Summarization-using-AWS-and-Flask-API/blob/master/Text%20Summarization%20Demo.gif)
 
 
 
