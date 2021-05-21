@@ -1,0 +1,50 @@
+package com.sameer.textsummarization.Classes;
+
+import com.google.gson.JsonObject;
+import com.google.gson.annotations.SerializedName;
+
+import org.json.JSONObject;
+
+public class Post {
+    private int userId;
+    private Integer id;
+    private String title;
+
+    @SerializedName("body")
+    private String text;
+    private JSONObject jsonObject;
+
+    public JSONObject getJsonObject() {
+        return jsonObject;
+    }
+
+    public Post(JSONObject jsonObject) {
+        this.jsonObject = jsonObject;
+    }
+
+    public Post(String text){
+        this.text = text;
+    }
+
+    public Post(int userId, String title, String text) {
+        this.userId = userId;
+        this.title = title;
+        this.text = text;
+    }
+
+    public int getUserId() {
+        return userId;
+    }
+
+    public int getID() {
+        return id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getText() {
+        return text;
+    }
+}
